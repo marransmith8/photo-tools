@@ -74,8 +74,8 @@ def delete_files(files):
 
 def main():
     # Define your folders here:
-    folder1 = r"A:\Desktop\Phone Photos\2021"
-    folder2 = r"A:\My Photos & Videos\Albums\2022\689 Isle of Arran 06-01-2022y"
+    folder1 = r"A:\OneDrive\Pictures\Bram's Christening"
+    folder2 = r"A:\My Photos & Videos\Albums\2022\699 Bramwell's Christening 03-04-2022"
 
     folder1_abs = os.path.abspath(folder1)
     folder2_abs = os.path.abspath(folder2)

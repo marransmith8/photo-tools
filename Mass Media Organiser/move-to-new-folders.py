@@ -93,8 +93,8 @@ def organize_files_with_preview(source_dir, output_dir, structure='year'):
 
 if __name__ == '__main__':
     # Hardcoded paths example, change as needed
-    source = r"A:\OneDrive\Photos\Unsorted"
-    output = r"A:\OneDrive\Photos\Organized"
-    structure = "day"  # Options: "year", "month", "day"
+    source = r"A:\Desktop\Watsapp"
+    output = r"A:\Desktop\Watsapp"
+    structure = "year"  # Options: "year", "month", "day"
 
     organize_files_with_preview(source, output, structure)
